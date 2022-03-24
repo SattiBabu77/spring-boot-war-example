@@ -26,7 +26,7 @@ pipeline {
                 
                
                 
-                deploy adapters: [tomcat7(credentialsId: 'Tomcat-Credentials2', path: '', url: 'http://13.233.153.183:8084')], contextPath: '/satapp', war: '**/*.war'
+                deploy adapters: [tomcat7(credentialsId: 'Tomcat-Credentials2', path: '', url: 'http://13.233.153.183:8084')], contextPath: '/guru', war: '**/*.war'
                 
             }
             
