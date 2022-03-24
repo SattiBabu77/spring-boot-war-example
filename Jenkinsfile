@@ -37,7 +37,7 @@ pipeline {
                 
                
                 
-                deploy adapters: [tomcat7(credentialsId: 'Tomcat-Credentials2', path: '', url: 'http://52.66.247.104:8080')], contextPath: '/guruprod', war: '**/*.war'
+                deploy adapters: [tomcat7(credentialsId: 'Tomcat-Credentials2', path: '', url: 'http://52.66.247.104:8081')], contextPath: '/guruprod', war: '**/*.war'
                 
             }
             
