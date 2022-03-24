@@ -31,7 +31,7 @@ pipeline {
             }
             
         }
-        stage("Deploy on Test"){
+        stage("Deploy on Prod"){
             steps{
                 // deploy on container -> plugin
                 
